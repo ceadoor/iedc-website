@@ -291,18 +291,19 @@ b, strong {
   font-size: 30px;
   color: #ffffff;
 }
+.logo{
+	
+	content: url("images\Icons\IEDClogo_D.png");
+}
 
 .dark-mode {
   background: #0c0c0d;
-}
-.dark-mode .navbar-light .navbar-brand{
-  src: images\Icons\IEDClogo_D.png;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
-  color: #ffc200;
+  color: #2196f3;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
   background: #0c0c0d;
@@ -316,7 +317,7 @@ b, strong {
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
 .dark-mode .color-mode {
-  color: #ffffff;
+  color: #2196f3;
 }
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
