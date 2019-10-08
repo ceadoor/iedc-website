@@ -21,6 +21,45 @@
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 </style>
+
+<style>
+
+  .logo_dynamic{
+   width: 150px; /* Width of new image */
+  height: 90px; /* Height of new image */
+  }
+  .dark-mode .logo_dynamic{
+  
+  }
+
+.border-button {
+  padding: 1em 1.75em;
+  margin: 0.25em; 
+  display: inline-block;
+  font-size: 21px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.border-button {
+  box-shadow: 0px 0px 0px 0px #FC5185;
+  transition: box-shadow 0.2s linear;
+  margin: 0.5em;
+}
+.border-button:hover {
+  box-shadow: 0px 0px 0px 1px #00b0ff;
+  transform: scale(1.1);
+  }
+}
+
+
+</style>
+
 	
     	
 
@@ -83,8 +122,9 @@ x.style.display = "block";
            y.style.display = "none";
 	z.style.display = "none";
         }
-        
+    
 	</script>
+	
   </head>
   <body onload="codeAddress();">
   
@@ -92,7 +132,7 @@ x.style.display = "block";
     <!-- MENU -->
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="index.html"></i> <img src="images\Icons\IEDClogo_W.png" alt="IEDC logo" width="150" height="90"></a>
+            <a class="navbar-brand" href="index.html"></i> <img src="images\Icons\IEDClogo_W.png" class= "logo_dynamic"  alt="IEDC logo" width="150" height="90"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -101,10 +141,11 @@ x.style.display = "block";
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
+            <div class="collapse navbar-collapse " id="navbarNav">
+			
+                <ul class="navbar-nav mx-auto ">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="Us">ABOUT</span></a>
+                        <a href="#about" class="nav-link"><span data-hover="us">ABOUT</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="#Events" class="nav-link"><span data-hover="show">EVENTS</span></a>
@@ -119,6 +160,7 @@ x.style.display = "block";
                         <a href="#contact" class="nav-link"><span data-hover="Us">CONTACT</span></a>
                     </li>
                 </ul>
+				
 
                 <ul class="navbar-nav ml-lg-auto">
                     <div class="ml-lg-4">
@@ -137,19 +179,79 @@ x.style.display = "block";
         <div class="container">
             <div class="row">
 			<hr/>
-                <h1>About us</h1>
-				
-				<p1>IEDC CEA is a non-profitable organization working inside College of Engineering Adoor, with an aim of developing Entrepreneur habit and lifestyle with in the Engineering students to promote them to become a job provider rather than a job seeker</p1>
-				
-                
-        </div>
+			<div>
+                <h1>ABOUT US</h1>
+				<p>Innovation and Entrepreneurship Developmnet Centre at College of Engineering, Adoor(IEDC-CEA) functions with a purpose of inspiring students to become independent innovators and leaders by exposing then to the world of Entrepreneurship through Innovation. The centre encourages students to identify the true joy of self-learning and they passionately involve in bringing life into their ideas, to solve the problems that they see around.</p>
+
+				<h2>Mission and Vision</h2><p>
+
+To develop an ecosystem with required infrastructure that can enable students and faculty to innovate and prototype their potential ideas with industrial standards, expert assistance and support from Government institutions and help them to realize their potentials and thus make our world a better place to co-exist.
+</p>
+<h2>Objectives</h2>
+
+		<div class="timeline">
+                        <div class="timeline-wrapper">
+                             <div class="timeline-yr ">
+                                  <span>1</span>
+                             </div>
+                             <div class="timeline-info ">
+                                  <h3 ><span> <div class="border-button">To organise Entrepreneurship Awareness Camps, Entrepreneurship Development Programmes and Skill Development Programmes in the institution.</div></span></h3>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2</span>
+                            </div>
+                            <div class="timeline-info ">
+                                <h3><span><div class="border-button">To guide and assist prospective entrepreneurs on various aspects such as preparing project reports, obtaining project approvals, loans and facilities from agencies of support system, information on technologies, etc.</div></span></h3>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>3</span>
+                            </div>
+                            <div class="timeline-info ">
+                                <h3><span><div class="border-button"> To organize Business Plan Competitions every year.</div></span></h3>
+                              </div>  
+                        </div>
+
+							<div class="timeline-wrapper">
+                             <div class="timeline-yr">
+                                  <span>4</span>
+                             </div>
+                             <div class="timeline-info ">
+                                  <h3><span><div class="border-button"> To arrange interaction with entrepreneurs and create a mentorship scheme for student entrepreneurs.</div></span></h3>
+                             </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>5</span>
+                            </div>
+                            <div class="timeline-info ">
+                                <h3><span><div class="border-button"> To improve innovation, creative and design thinking among student community.</div></span></h3>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>6</span>
+                            </div>
+                            <div class="timeline-info ">
+                                <h3><span> <div class="border-button">Focus more on innovation driven entrepreneurship from student projects.</div></span></h3>
+                                
+                            </div>
+                        </div>
+                        </div>
     </section>
 	
 	<hr></hr>
 
 	<!-- EVENTS -->
     <section class="events" id="Events">
-        <div class="container">
+        <div class="container ">
             
                 <h1>EVENTS</h1>
 				<div class="container">
@@ -235,7 +337,7 @@ x.style.display = "block";
 	<hr></hr>
 	<!-- OUR TEAM -->
     <section class="our_team" id="our_team">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <h1>OUR TEAM</h1>
                 
@@ -244,16 +346,17 @@ x.style.display = "block";
 	<hr></hr>
 	<!-- MEDIA GALLERY -->
     <section class="media_gallery" id="media_gallery">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <h1>MEDIA GALLERY</h1>
-				
+			</div>
+
         </div>
     </section>
 	<hr></hr>
 	<!-- CONTACT-->
     <section class="contact" id="contact">
-        <div class="container">
+        <div class="container ">
             <div class="row">
                 <h1>CONTACT</h1>
                 
