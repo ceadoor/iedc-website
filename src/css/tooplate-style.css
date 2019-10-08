@@ -362,6 +362,7 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-left: 4em;
+  transform: translate(30px, 0px);
 }
 .timeline-info small {
   color: #474559;
