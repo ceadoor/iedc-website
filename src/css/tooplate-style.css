@@ -361,8 +361,7 @@ b, strong {
 .timeline-info {
   display: inline-block;
   vertical-align: top;
-  max-width: 432px;
-  margin-left: 6em;
+  margin-left: 1em;
 }
 .timeline-info small {
   color: #474559;
