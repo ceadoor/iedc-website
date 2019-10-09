@@ -11,6 +11,12 @@
   background-position: center;
   background-repeat: repeat-x;
   background-size: cover;
+    /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */ 
+    @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 }
 
 .parallax_events {
@@ -26,8 +32,14 @@
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
+  
+ 
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
   }
-
+  }
+}
   .parallax_contact {
     /* The image used */
     background-image: url("contact_parallax.png");
@@ -41,6 +53,12 @@
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
+    
+    @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
   }
 
   .parallax_gallery {
@@ -56,6 +74,12 @@
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
+    
+    @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
   }
 
   .parallax_team {
@@ -71,6 +95,13 @@
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
+    
+    @media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+    
   }
 
   
