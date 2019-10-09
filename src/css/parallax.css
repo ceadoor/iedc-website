@@ -1,0 +1,76 @@
+  .parallax_about {
+  /* The image used */
+  background-image: url("about_parallax.png");
+  
+
+  /* Set a specific height */
+  min-height: 100px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.parallax_events {
+    /* The image used */
+    background-image: url("events_parallax.png");
+    
+  
+    /* Set a specific height */
+    min-height: 100px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+  }
+
+  .parallax_contact {
+    /* The image used */
+    background-image: url("contact_parallax.png");
+    
+  
+    /* Set a specific height */
+    min-height: 100px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+  }
+
+  .parallax_gallery {
+    /* The image used */
+    background-image: url("gallery_parallax.png");
+    
+  
+    /* Set a specific height */
+    min-height: 100px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+  }
+
+  .parallax_team {
+    /* The image used */
+    background-image: url("team_parallax.png");
+    
+  
+    /* Set a specific height */
+    min-height: 100px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+  }
+
+  
